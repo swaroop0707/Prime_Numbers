@@ -5,6 +5,7 @@ int main()
 	int n, i, isprime;
 	printf("Enter the number: ");
 	scanf("%d", &n);
+	//takes input from user
 	i=n/2;
 	isprime = prime(n,i);
 	if(isprime==1)
